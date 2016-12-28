@@ -2,7 +2,7 @@
 
 Thank you for visiting Rhobotix Projects! We are a small group of engineers dedicated to increasing our knowledgebase of embedded systems by undertaking various projects. This website will explain in detail the projects that we are currently working on.
 
-All of the source code for our projects is available on our github account: https://github.com/rhobotixprojects.
+All of the source code for our projects is available on our [github account](https://github.com/rhobotixprojects).
 
 ## LPC1114FN28/102 Flash Utility
 
