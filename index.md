@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Welcome to Rhobotix Projects
 
-You can use the [editor on GitHub](https://github.com/rhobotixprojects/rhobotixprojects.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Thank you for visiting Rhobotix Projects! We are a small group of engineers dedicated to increasing our knowledgebase of embedded systems by undertaking various projects. This website will explain in detail the projects that we are currently working on.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+All of the source code for our projects is available on our github account: https://github.com/rhobotixprojects.
 
-### Markdown
+## LPC1114FN28/102 Flash Utility
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In this project, we are creating software that will be used to flash the LPC1114FN28/102 microcontroller. This microcontroller contains an ARM Cortex-M0 processor. The software utility is developed in Python and can be used on a Linux OS.
 
-```markdown
-Syntax highlighted code block
+## Security Systems Project
 
-# Header 1
-## Header 2
-### Header 3
+The goal of the project is to create a security system along with a phone app, the security system will alert the user via the phone app if the security system is activated.
+To start the project we can use the Rasberry Pi, a camera (we can start with a camera that is connected via a USB cable, then move to a wireless camera. Also we need a sensor like the ping))) to detect movement. 
 
-- Bulleted
-- List
+If the ping))) detects movement it will send a specific signal to the Rasberry Pi, which will send a command to the camera to take a picture and/or start streaming video. 
 
-1. Numbered
-2. List
+The Rasberry Pi will also send a notification to the user, via email first, then maybe via app to start viewing the live camera feed to see what is going on. 
 
-**Bold** and _Italic_ and `Code` text
+This will help us get familiar with the rasberry pi, and write programs to work with the GPIO pins, and go thru a series of commands if certain conditions are met. 
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rhobotixprojects/rhobotixprojects.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Once we create the app, this will also get our familiar with what it takes to create a phone app.
